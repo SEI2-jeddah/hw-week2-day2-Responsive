@@ -2,8 +2,6 @@
 
 # Responsive Web Design HW
 
-Checkout to a new branch named `homework`.
-
 ## The Ultimate James Bond Fan Site
 
 Your client has an awesome James Bond website that they want to make responsive. However, they don't want to modify their existing HTML, so they've asked you to **only compose a new stylesheet**.
@@ -16,3 +14,13 @@ Notes:
 
 ![desktop](layout-desktop.png)
 ![mobile](layout-mobile.png)
+
+---
+
+## Reminder
+Your opinion for this homework is very important! Please fill up the following questions when you pull request:
+ * on a scale from 1 to 5, how comfortable were you with this assignment?
+ * How long did it take?
+ * What was a challenge you had with this assignment?
+ * Is there anything that you'd like some further information on?
+ * Do you have any suggestions to improve this assignment?
