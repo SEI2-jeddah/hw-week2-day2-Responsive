@@ -15,9 +15,11 @@ body {
   background-color: #333;
   font: 15px/1.4 Helvetica, Arial, sans-serif;
   margin: 0;
-  width: 900px;
+  width: 65%;
+  max-width: 90%;
   margin:auto;
   padding: 25px 25px 50px;
+
 }
 
 a {
@@ -47,13 +49,18 @@ main {
   display: flex;
 }
 nav {
+  display: flex;
+  justify-content: center;
   background-color: #B00;
   margin: 0;
   margin-right: 5%;
   padding: 0;
   flex-grow: 1;
   min-width: 100px;
+  width: 25%;
   height: 100%;
+  
+ 
 }
 
 nav ul {
@@ -111,4 +118,29 @@ section img {
   display: inline;
   margin-right: 15px;
   padding-right: 15px;
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    background-color: #333;
+    font: 20px/1.4 Helvetica, Arial, sans-serif;
+    margin: 0;
+    width: 65%;
+    max-width: 90%;
+    margin:auto;
+    padding: 25px 25px 50px;
+  
+  }
+}
+@media screen and (min-width: 100px) {
+  body {
+    background-color: #333;
+    font: 15px/1.4 Helvetica, Arial, sans-serif;
+    margin: 0;
+    width: 90%;
+    max-width: 90%;
+    margin:auto;
+    padding: 25px 25px 50px;
+  
+  }
 }
