@@ -9,15 +9,17 @@
   CSS you'll need:
   - max-width
   - @media
-*/
+  */
 
 body {
+  box-sizing: border-box;
   background-color: #333;
   font: 15px/1.4 Helvetica, Arial, sans-serif;
   margin: 0;
   width: 900px;
   margin:auto;
   padding: 25px 25px 50px;
+  width: 100%;
 }
 
 a {
@@ -58,6 +60,8 @@ nav {
 
 nav ul {
   list-style: none;
+  padding: 10px 10px;
+
 }
 
 nav a {
@@ -74,13 +78,22 @@ nav a:hover {
 section {
   margin: 0 0 30px;
   flex-grow: 5;
-  width: 400px;
-}
+  width: 200px;
+  float:left;
+  padding: 40px;
+  text-align: left;
+
+ padding-top: 10px
+ }
 
 section img {
   margin-right: 20px;
   margin-bottom: 5px;
-  width: 30%;
+  width: 40%;
+
+  padding-right: 5px;
+  float:left;
+
 }
 
 .breadcrumbs {
@@ -111,4 +124,44 @@ section img {
   display: inline;
   margin-right: 15px;
   padding-right: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+  .page {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  .header img {
+    display: block;
+    width: 100%;
+    padding-bottom: 30px;
+
+  }
+  h1{
+    padding: 0;
+
+
+  }
+  p{
+    padding-top: 20px ;
+    margin-right: 5px;
+
+  }
+  .left{
+    padding-top: 40px;
+    width: 100px;
+    float: left;
+  }
+
 }
