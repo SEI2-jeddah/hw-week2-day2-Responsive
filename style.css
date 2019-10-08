@@ -51,7 +51,7 @@ a {
   width: 30%;
 }
 
-  @media only screen and(max-width: 900px) {
+  @media only screen and(max-width: 375px) {
 
 main {
  width:65%;
@@ -61,25 +61,20 @@ nav {
     margin-right:5%;
 }
 
-nav ul {
-display:inline;
-}
-
 nav a {
     display:inline;
 }
 
 
-  
-
-  nav li{
-    display:inline;
+  nav  ul li{
+  float:left;
   }
   
+}
 nav a:hover {
   background-color: #D00;
 }
-  }
+  
 section {
   margin: 0 0 30px;
   flex-grow: 5;
