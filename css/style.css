@@ -112,3 +112,26 @@ section img {
   margin-right: 15px;
   padding-right: 15px;
 }
+
+
+.adff{
+  width: 100%
+
+
+}
+
+@media only screen and (max-width: 900px){
+
+  nav{
+    float: left;
+    width : 25%;
+    margin: right;
+    display: inline;
+    
+  }
+  
+main{
+display: grid;
+width: 65%;
+}
+  }
