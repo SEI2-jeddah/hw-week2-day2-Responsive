@@ -112,3 +112,36 @@ section img {
   margin-right: 15px;
   padding-right: 15px;
 }
+@media only screen and (min-width: 375px) 
+{
+  main{
+    width: 65%;
+  }
+  nav {
+  
+    width: 25%;
+  margin-right: 5%;
+  }
+
+  nav ul li{
+    float: left;
+  }
+
+  .left{
+    width: 100px;
+    height: 100px;
+  }
+
+}
+/*
+  Red: #B00;
+  Dark Red: #900;
+
+  Max page width: 900px
+  Nav width: 25%, with 5% right margin
+  Main width: 65%
+
+  CSS you'll need:
+  - max-width
+  - @media
+*/
