@@ -112,3 +112,45 @@ section img {
   margin-right: 15px;
   padding-right: 15px;
 }
+@media only screen and (max-width: 768px) {
+  body {
+    width: 768px;
+    background-color: white;
+    margin:auto;
+    padding: 20px 20px 0px;
+  }
+
+  main {
+    display: flex;
+  }
+
+  breadcrumbs {
+    grid-column-end: auto;
+    padding: 30;
+    display: flex;
+
+section {
+
+  width: 300px;
+}
+
+section img {
+  width: 20%;
+
+nav a {
+  display: block;
+  padding: 13px 5px;
+  justify-content: space-around;
+}
+
+
+.footer li {
+  display: block;
+  padding-right: 40px;
+}
+
+footer {
+
+padding: 30px 15px;
+}
+}
