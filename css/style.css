@@ -10,6 +10,39 @@
   - max-width
   - @media
 */
+@media screen and (max-width: 600px){
+  .header{
+    width: 50%;
+  }
+  .footer li{
+    margin-left: 7%;
+  }
+  main{
+    width: 65%;
+    flex-direction: column;
+  }
+  nav {
+    width: 600px;
+    margin: 0;
+    margin-right: 5%;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    align-content: center;
+    font-size: 17px;
+  }
+  section{
+    padding-left: 5%;
+  }
+  section img {
+    float: left;
+  }
+  section p{
+    display: inline;
+  }
+}
 
 body {
   background-color: #333;
