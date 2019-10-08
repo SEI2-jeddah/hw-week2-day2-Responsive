@@ -10,7 +10,55 @@
   - max-width
   - @media
 */
-
+/*Mobile*/
+@media screen and (max-width: 900px) {
+  body {
+    width: 0;
+    max-width: 65%;
+  }
+  main{
+    display: grid !important;
+  }
+  main nav{
+    margin-right: 0;
+  }
+  main nav ul{
+    display: inline-flex;
+    margin: auto;
+    padding-left: 0;
+  }
+  main nav ul li{
+    border-right: 1px dotted black;
+  }
+  section{
+    width: inherit !important;
+  }
+  section h1{
+    padding: 0 10px;
+    font-size: 30px;
+  }
+  section img{
+    float: left;
+    padding: 0 0 0 10px;
+  }
+  p{
+    padding: 0 10px;
+  }
+}
+/*Desktop*/
+@media screen and (min-width: 900px) {
+  section h1{
+    padding: 0 10px;
+    font-size: 30px;
+  }
+  section img{
+    float: left;
+    padding: 0 0 0 10px;
+  }
+  p{
+    padding: 0 10px;
+  }
+}
 body {
   background-color: #333;
   font: 15px/1.4 Helvetica, Arial, sans-serif;
