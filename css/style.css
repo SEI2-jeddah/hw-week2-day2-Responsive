@@ -129,6 +129,9 @@ section img {
   flex-grow: 3;
 
  }
+ main{
+   display: grid;
+ }
  section{
   float: center;
   grid-column: 0;
