@@ -10,15 +10,43 @@
   - max-width
   - @media
 */
+@media only secreen and (max-width: 700px){
+  body {
+    background-color: #333;
+    font: 15px/1.4 Helvetica, Arial, sans-serif;
+    margin: 0;
+    width: 900px;
+    margin:auto;
+    padding: 25px 25px 50px;
+  }
+  .page {
+    max-width: 900px;
+   }
+   main {
+    max-width: 65%;
+    }
+nav {
+    background-color: #B00;
+    margin-right: 5%;
+    padding: 0;
+    justify-content: flex-start;
+    max-width: 25%;
+    height: 100%;
+  }
+  section img {
+    margin-right: 20px;
+    margin-bottom: 5px;
+    width: 30%;
+  }
 
-body {
-  background-color: #333;
-  font: 15px/1.4 Helvetica, Arial, sans-serif;
-  margin: 0;
-  width: 900px;
-  margin:auto;
-  padding: 25px 25px 50px;
+
+.header{
+  max-width: 100%;
 }
+
+   
+}
+
 
 a {
   color: #C00;
@@ -45,6 +73,7 @@ a {
 }
 main {
   display: flex;
+  width: 
 }
 nav {
   background-color: #B00;
@@ -112,3 +141,4 @@ section img {
   margin-right: 15px;
   padding-right: 15px;
 }
+
