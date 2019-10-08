@@ -18,6 +18,8 @@ body {
   width: 900px;
   margin:auto;
   padding: 25px 25px 50px;
+  display: grid;
+  grid-column: 100px 1fr;
 }
 
 a {
@@ -111,4 +113,35 @@ section img {
   display: inline;
   margin-right: 15px;
   padding-right: 15px;
+}
+
+@media screen and (max-width: 100px) {
+  nav {
+    float: left;
+    width: 100%;
+    display: inline;
+  }
+  nav a sx {
+  float: left;
+  flex-grow: 4;
+  display: inline;
+
+
+ }
+ main {
+   display: grid;
+ }
+ section {
+
+  float: center;
+  grid-column: 0;
+  grid-row: 20px 1fr;
+
+ }
+
+ body {
+   grid-row: 20px 1fr;
+   grid-column: 0;
+ }
+
 }
