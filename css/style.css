@@ -10,6 +10,43 @@
   - max-width
   - @media
 */
+@media  only screen and (max-width: 900px)  {
+  .page {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 65%;
+    margin-right: 5%;
+    margin-left: 5%;
+    position: relative;
+  }
+  h1, img {
+    margin-left: 5%;
+  }
+  img ,{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  nav {
+    position: relative;
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin-right: 5%;
+    display: grid;
+  }
+  nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5%;
+  }
+  p {
+    width: 100%;
+    margin-left: 5%;
+    display: inline-block;
+  }
+
+}
+
 
 body {
   background-color: #333;
