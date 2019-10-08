@@ -18,6 +18,7 @@ body {
   width: 900px;
   margin:auto;
   padding: 25px 25px 50px;
+
 }
 
 a {
@@ -111,4 +112,44 @@ section img {
   display: inline;
   margin-right: 15px;
   padding-right: 15px;
+}
+.left{
+  float: left;
+}
+@media only screen and (max-width: 768px){
+
+
+  body {
+    background-color: #333;
+    font: 15px/1.4 Helvetica, Arial, sans-serif;
+    width: 500px;
+    margin:auto;
+    padding:0 0 0 0;
+  }
+  nav{
+    width:50px;
+   margin-right: 5%;
+   min-width: 65%;
+  }
+
+  nav ul li {
+    display:inline; 
+  }
+
+ section{
+   margin: 0 0 0 60px
+ }
+
+  main{
+    display: inline;
+  }
+
+  nav a {
+    color: #fff;
+    display: inline;
+
+  }
+  .header {
+    display: none;
+  }
 }
