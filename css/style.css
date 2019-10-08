@@ -1,3 +1,6 @@
+
+
+
 /*
   Red: #B00;
   Dark Red: #900;
@@ -10,6 +13,46 @@
   - max-width
   - @media
 */
+@media only screen and (max-width: 750px) {
+  body {
+    background-color: #333;
+    font: 10px/1.4 Helvetica, Arial, sans-serif;
+    margin: 0;
+    width: 900px;
+  }
+
+  .page {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 0 ;
+    max-width: 900px;
+    width:60% ;
+    
+  }
+  
+  main {
+    
+    width: 65%;
+  }
+  nav {
+    background-color: #B00;
+    margin: 0;
+    margin-right: 5%;
+    padding: 0;
+    flex-grow: 1;
+    min-width: 100px;
+    height: 25%;
+    width:25%;
+  }
+  
+  section img {
+    width: 30%;
+  }
+  
+ 
+}
+
 
 body {
   background-color: #333;
@@ -23,12 +66,25 @@ body {
 a {
   color: #C00;
 }
+.left{
+  float: left;
+}
 
+li {
+  float: left;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
 .page {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  margin: 0 auto;
+  margin: 0;
 }
 
 .header {
@@ -44,20 +100,26 @@ a {
   width: 30%;
 }
 main {
-  display: flex;
+  
 }
 nav {
   background-color: #B00;
   margin: 0;
-  margin-right: 5%;
+  /*margin-right: 5%;*/
   padding: 0;
   flex-grow: 1;
   min-width: 100px;
   height: 100%;
+  width: auto;
 }
 
 nav ul {
   list-style: none;
+  
+}
+
+nav li {
+  border: 0.3px black solid;
 }
 
 nav a {
@@ -72,9 +134,11 @@ nav a:hover {
 }
 
 section {
-  margin: 0 0 30px;
-  flex-grow: 5;
-  width: 400px;
+  margin: 0 ;
+  padding: 20px 30px 20px 30px;
+  width: 50%;
+  display:block;
+
 }
 
 section img {
@@ -89,6 +153,7 @@ section img {
   font-weight: bold;
   padding: 0;
   display: flex;
+  
 }
 
 .breadcrumbs li {
@@ -97,7 +162,6 @@ section img {
 
 .footer {
   background-color: #B00;
-  clear: both;
   margin: 0;
   padding: 10px 20px;
 }
