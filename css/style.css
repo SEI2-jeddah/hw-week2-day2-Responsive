@@ -10,8 +10,10 @@
   - max-width
   - @media
 */
+ 
 
 body {
+  box-sizing: border-box;
   background-color: #333;
   font: 15px/1.4 Helvetica, Arial, sans-serif;
   margin: 0;
@@ -29,6 +31,8 @@ a {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   margin: 0 auto;
+  width: 100%;
+
 }
 
 .header {
@@ -54,10 +58,13 @@ nav {
   flex-grow: 1;
   min-width: 100px;
   height: 100%;
+
 }
 
 nav ul {
   list-style: none;
+  padding: 10px 1px;
+
 }
 
 nav a {
@@ -69,18 +76,28 @@ nav a {
 
 nav a:hover {
   background-color: #D00;
+
 }
 
 section {
   margin: 0 0 30px;
   flex-grow: 5;
-  width: 400px;
-}
+  width: 200px;
+  float:left;
+  padding: 60px;
+  text-align: left;
+
+ padding-top: 10px
+ }
 
 section img {
   margin-right: 20px;
   margin-bottom: 5px;
   width: 30%;
+      
+  padding-right: 10px;
+  float:left;
+  
 }
 
 .breadcrumbs {
@@ -111,4 +128,48 @@ section img {
   display: inline;
   margin-right: 15px;
   padding-right: 15px;
+}
+
+
+ 
+
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+
+@media only screen and (min-width: 900px) {
+  /* For desktop: */
+
+ 
+  nav{
+   
+  width: 100%;
+   }
+   nav ul{
+     display:grid;
+     grid-template-columns: 25% 25% 25% 25%;
+     padding:0;
+     margin:0;
+     
+   }
+   nav ul{
+    border-right: 1px solid #B00;
+    padding:0 5px;
+    
+  }
+
+  section{
+
+    width:90%;
+  }
+
+ main  {
+display:initial
+ 
+ }
+
+  
 }
