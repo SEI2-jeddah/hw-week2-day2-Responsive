@@ -112,3 +112,13 @@ section img {
   margin-right: 15px;
   padding-right: 15px;
 }
+
+@media (max-width: 900px){
+  nav{
+    width: 25;
+    margin-right: 5%;
+  }
+  main{
+    width: 65%;
+  }
+}
