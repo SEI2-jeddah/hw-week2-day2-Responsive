@@ -1,15 +1,18 @@
-/*
-  Red: #B00;
-  Dark Red: #900;
 
-  Max page width: 900px
-  Nav width: 25%, with 5% right margin
-  Main width: 65%
+  /* Red: #B00; */
+  /* Dark Red: #900; */
 
-  CSS you'll need:
-  - max-width
-  - @media
-*/
+  /* Max page width: 900px */
+  /* Nav width: 25%, with 5% right margin */
+
+  /* CSS you'll need: */
+  /* - max-width */
+/* @media only screen and (max-width: 900px){ */
+  width: 65%;
+
+/* } */
+
+
 
 body {
   background-color: #333;
@@ -112,3 +115,5 @@ section img {
   margin-right: 15px;
   padding-right: 15px;
 }
+
+
