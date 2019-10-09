@@ -116,40 +116,25 @@ section img {
 .left{
   float: left;
 }
-@media only screen and (max-width: 768px){
-
-
-  body {
-    background-color: #333;
-    font: 15px/1.4 Helvetica, Arial, sans-serif;
-    width: 500px;
-    margin:auto;
-    padding:0 0 0 0;
+@media (max-width:900px) {
+  body{
+  
+    widows: 100%;
+    display:block;
   }
-  nav{
-    width:50px;
-   margin-right: 5%;
-   min-width: 65%;
+  main nav {
+    width:65%
   }
-
-  nav ul li {
-    display:inline; 
+  nav ul{
+  
+    width:25% ;
+    display:flex;
+    flex-direction: row;
   }
-
- section{
-   margin: 0 0 0 60px
- }
-
-  main{
-    display: inline;
+  
+  main {
+    display: flex;
+    align-items: center;
+    display: block;
   }
-
-  nav a {
-    color: #fff;
-    display: inline;
-
-  }
-  .header {
-    display: none;
-  }
-}
+    }
